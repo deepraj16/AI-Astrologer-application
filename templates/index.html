@@ -277,13 +277,13 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>✨ AI Astrologer ✨</h1>
+            <h1>AI Astrologer </h1>
             <p>Discover your cosmic blueprint and unlock the wisdom of the stars</p>
         </div>
 
         <!-- Birth Details Form -->
         <div class="card">
-            <h2>🌙 Your Birth Details</h2>
+            <h2>Your Birth Details</h2>
             <form id="birthForm">
                 <div class="form-group">
                     <label for="name">Full Name <span class="required">*</span></label>
@@ -306,7 +306,7 @@
                 </div>
 
                 <button type="submit" class="btn" id="generateBtn">
-                    🔮 Generate My Reading
+                     Generate My Reading
                 </button>
             </form>
         </div>
@@ -328,12 +328,12 @@
         <!-- Chat Section -->
         <div id="chat-section" class="chat-section">
             <div class="card">
-                <h2>💬 Ask Your Astrologer</h2>
+                <h2> Ask Your Astrologer</h2>
                 <p style="margin-bottom: 20px; color: #666;">Have specific questions about your reading? Ask me anything!</p>
                 
                 <div id="chat-container" class="chat-container">
                     <div class="chat-message ai-message">
-                        <strong>🌟 Your Astrologer:</strong> Welcome! I'm here to help you understand your astrological profile. Feel free to ask me about love, career, personality traits, or any other aspect of your life you'd like cosmic guidance on!
+                        <strong> Your Astrologer:</strong> Welcome! I'm here to help you understand your astrological profile. Feel free to ask me about love, career, personality traits, or any other aspect of your life you'd like cosmic guidance on!
                     </div>
                 </div>
 
@@ -348,7 +348,7 @@
                 </div>
                 
                 <button onclick="clearSession()" class="clear-session-btn">
-                    🔄 Start New Reading
+                     Start New Reading
                 </button>
             </div>
         </div>
@@ -489,7 +489,7 @@
             if (sender === 'user') {
                 messageDiv.innerHTML = `<strong>You:</strong> ${escapeHtml(message)}`;
             } else {
-                messageDiv.innerHTML = `<strong>🌟 Your Astrologer:</strong> ${escapeHtml(message)}`;
+                messageDiv.innerHTML = `<strong> Your Astrologer:</strong> ${escapeHtml(message)}`;
             }
 
             chatContainer.appendChild(messageDiv);
@@ -521,7 +521,7 @@
                     const chatContainer = document.getElementById('chat-container');
                     chatContainer.innerHTML = `
                         <div class="chat-message ai-message">
-                            <strong>🌟 Your Astrologer:</strong> Welcome! I'm here to help you understand your astrological profile. Feel free to ask me about love, career, personality traits, or any other aspect of your life you'd like cosmic guidance on!
+                            <strong> Your Astrologer:</strong> Welcome! I'm here to help you understand your astrological profile. Feel free to ask me about love, career, personality traits, or any other aspect of your life you'd like cosmic guidance on!
                         </div>
                     `;
                     
@@ -586,4 +586,5 @@
         });
     </script>
 </body>
+
 </html>
