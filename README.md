@@ -4,6 +4,12 @@ An interactive Flask-based web application that provides **personalized astrolog
 It combines **astrological calculations** with **LLM responses** (powered by Mistral AI) to deliver comprehensive insights.  
 
 ---
+<img width="1736" height="891" alt="image" src="https://github.com/user-attachments/assets/ea61faf6-7fd3-4809-b1c3-2f5dfa0eadc5" />
+
+<img width="1734" height="911" alt="image" src="https://github.com/user-attachments/assets/e2f1cfdf-e2d8-4c51-95e9-4b0052ea97d4" />
+
+<img width="1436" height="927" alt="image" src="https://github.com/user-attachments/assets/4e07b709-bdd1-4516-b23d-5caa617e5767" />
+
 
 ## ✨ Features
 - Generate an astrology reading based on:
@@ -46,7 +52,7 @@ AI-Astrologer-application/
 ```bash
 git clone https://github.com/deepraj16/AI-Astrologer-application.git
 cd AI-Astrologer-application  
-
+```
 2. Create and activate a virtual environment
 python -m venv .venv
 source .venv/bin/activate    # On Windows: .venv\Scripts\activate
@@ -66,25 +72,6 @@ flask run
 
 
 By default, the app runs at: http://127.0.0.1:5000
-
-🧩 API Endpoints
-/
-
-Loads the main UI.
-
-/generate_reading (POST)
-
-Input: { name, birth_date, birth_time, birth_place }
-
-Output: { zodiac_info, reading, user_data }
-
-/chat (POST)
-
-Input: { message }
-
-Output: AI astrologer’s response, maintains chat history per session.
-
-/clear_session (POST)
 
 Clears the current user’s session and conversation.
 
