@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = "astrology_secret"
 
 def setup_llm():
-    return ChatMistralAI(api_key="lHcwga2vJ6yyjV470WdMIFn5hRgtMbcc")
+    return ChatMistralAI(api_key="")
 
 llm = setup_llm()
 astro_engine = AstrologyEngine()
@@ -111,4 +111,5 @@ def clear_session():
     return jsonify({"success": True, "message": "Session cleared."})
 
 if __name__ == "__main__":
+
     app.run(debug=True, host="0.0.0.0", port=5000)
