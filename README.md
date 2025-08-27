@@ -6,7 +6,11 @@ It combines **astrological calculations** with **LLM responses** (powered by Mis
 ---
 <img width="1736" height="891" alt="image" src="https://github.com/user-attachments/assets/ea61faf6-7fd3-4809-b1c3-2f5dfa0eadc5" />
 
+---
+
 <img width="1734" height="911" alt="image" src="https://github.com/user-attachments/assets/e2f1cfdf-e2d8-4c51-95e9-4b0052ea97d4" />
+
+---
 
 <img width="1436" height="927" alt="image" src="https://github.com/user-attachments/assets/4e07b709-bdd1-4516-b23d-5caa617e5767" />
 
@@ -29,19 +33,6 @@ It combines **astrological calculations** with **LLM responses** (powered by Mis
 - **AI/LLM**: [LangChain MistralAI](https://python.langchain.com/docs/integrations/chat/mistralai)  
 - **Astrology Engine**: Custom `AstrologyEngine` for zodiac calculations  
 - **Frontend**: HTML + JavaScript (AJAX requests)  
-
----
-
-## 📂 Project Structure
-AI-Astrologer-application/
-│── app.py # Main Flask application
-│── astrology_engine.py # Custom astrology utility engine
-│── templates/
-│ └── index.html # Frontend UI
-│── static/
-│ └── style.css # Stylesheet
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation  
 
 
 ---
